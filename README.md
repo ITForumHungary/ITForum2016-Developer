@@ -1,6 +1,6 @@
 # Fejlesztői szekció
 
-Az IT Fórum 2016 fejlesztői szekciója a szekció a következő előadásokból áll:
+Az **IT Fórum 2016** fejlesztői szekciója a következő előadásokból áll:
 
 ## Elnézést, maga gép vagy ember?
 Hamarosan eljön (egyesek szerint már itt is van) az idő, amikor napi munka- és magánügyeinket egy személyes digitális asszisztens segíti, mi pedig weboldalak böngészése és okostelefonos appok nyomkodása helyett/mellett csevegőrobotokkal, azaz botokkal beszélgetünk. Ez hatalmas változást jelent a szoftverfejlesztésben és -üzemeltetésben éppúgy, mint a kapcsolódó szakterületeken, így a szolgáltatások és a felhasználói élmény tervezésében. Az előadás segít felkészülni a "szép új világra": áttekinti a meglévő és fejlesztés alatt álló termékeket és technológiákat, és példák segítségével bemutatja, hogyan fejlesszünk mi is hasonlókat.
