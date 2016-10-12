@@ -9,14 +9,14 @@
     <Grid>
         <StackPanel Orientation="Horizontal">
             <StackPanel>
-                <Button x:Name="LoadVideo" Width="120" Height="40" Margin="10,10,10,0">Load video</Button>
+                <Button x:Name="LoadVideo" Width="120" Height="40" Margin="10,10,10,0" Click="media_MediaOpened">Load video</Button>
                 <Button x:Name="ProcessVideo" Width="120" Height="40" Margin="10,10,10,0">Process video</Button>
             </StackPanel>
             <StackPanel>
-                <MediaElement x:Name="SecurityVideo" Width="640" Height="360" VerticalAlignment="Top" Margin="10" />
+                <MediaElement x:Name="SecurityVideo" Width="640" Height="360" VerticalAlignment="Top" Margin="10" Source="Resources/MI.mp4" MediaOpened="media_MediaOpened" />
                 <TextBlock x:Name="MotionStatus" Width="640" TextAlignment="Center" Margin="10">n/a</TextBlock>
             </StackPanel>
-            <ListBox x:Name="MotionEventList" Width="120" Height="auto" VerticalAlignment="Top" Margin="10">
+            <ListBox x:Name="MotionEventList" Width="120" Height="auto" VerticalAlignment="Top" Margin="10" MouseLeftButtonDown="MotionEventList_MouseLeftButtonDown" ItemsSource="{Binding Path=data.fargments}">
                 
             </ListBox>
         </StackPanel>

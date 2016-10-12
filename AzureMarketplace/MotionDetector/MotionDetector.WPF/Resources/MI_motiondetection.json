@@ -1,0 +1,1443 @@
+{
+    "version": 2,
+    "timescale": 25000,
+    "offset": 0,
+    "framerate": 25,
+    "width": 1280,
+    "height": 720,
+    "regions": [
+        {
+            "id": 0,
+            "type": "polygon",
+            "points": [
+                {
+                    "x": 0.187500,
+                    "y": 0.106944
+                },
+                {
+                    "x": 0.821875,
+                    "y": 0.119444
+                },
+                {
+                    "x": 0.789063,
+                    "y": 0.765278
+                },
+                {
+                    "x": 0.208594,
+                    "y": 0.756944
+                }
+            ]
+        }
+    ],
+    "fragments": [
+        {
+            "start": 0,
+            "duration": 426000
+        },
+        {
+            "start": 426000,
+            "duration": 49000,
+            "interval": 1000,
+            "events": [
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.276151,
+                                "y": 0.111940,
+                                "width": 0.287500,
+                                "height": 0.229630
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.267782,
+                                "y": 0.111940,
+                                "width": 0.395833,
+                                "height": 0.303704
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.276151,
+                                "y": 0.111940,
+                                "width": 0.420833,
+                                "height": 0.370370
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.280335,
+                                "y": 0.111940,
+                                "width": 0.425000,
+                                "height": 0.444444
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.288703,
+                                "y": 0.111940,
+                                "width": 0.433333,
+                                "height": 0.511111
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.292887,
+                                "y": 0.111940,
+                                "width": 0.425000,
+                                "height": 0.555556
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.297071,
+                                "y": 0.111940,
+                                "width": 0.416667,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.305439,
+                                "y": 0.111940,
+                                "width": 0.400000,
+                                "height": 0.629630
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.309623,
+                                "y": 0.111940,
+                                "width": 0.391667,
+                                "height": 0.637037
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.309623,
+                                "y": 0.111940,
+                                "width": 0.383333,
+                                "height": 0.629630
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.313808,
+                                "y": 0.111940,
+                                "width": 0.370833,
+                                "height": 0.622222
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.313808,
+                                "y": 0.111940,
+                                "width": 0.358333,
+                                "height": 0.614815
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.313808,
+                                "y": 0.111940,
+                                "width": 0.350000,
+                                "height": 0.614815
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.305439,
+                                "y": 0.111940,
+                                "width": 0.350000,
+                                "height": 0.607407
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.301255,
+                                "y": 0.111940,
+                                "width": 0.333333,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.297071,
+                                "y": 0.111940,
+                                "width": 0.325000,
+                                "height": 0.614815
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.297071,
+                                "y": 0.111940,
+                                "width": 0.320833,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "start": 475000,
+            "duration": 2000
+        },
+        {
+            "start": 477000,
+            "duration": 49000,
+            "interval": 1000,
+            "events": [
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.292887,
+                                "y": 0.111940,
+                                "width": 0.312500,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.292887,
+                                "y": 0.111940,
+                                "width": 0.320833,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.288703,
+                                "y": 0.111940,
+                                "width": 0.312500,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.288703,
+                                "y": 0.111940,
+                                "width": 0.312500,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.297071,
+                                "y": 0.111940,
+                                "width": 0.291667,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.292887,
+                                "y": 0.111940,
+                                "width": 0.291667,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.297071,
+                                "y": 0.111940,
+                                "width": 0.295833,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.297071,
+                                "y": 0.111940,
+                                "width": 0.300000,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.297071,
+                                "y": 0.111940,
+                                "width": 0.308333,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.297071,
+                                "y": 0.111940,
+                                "width": 0.320833,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.301255,
+                                "y": 0.111940,
+                                "width": 0.320833,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.301255,
+                                "y": 0.111940,
+                                "width": 0.325000,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.301255,
+                                "y": 0.111940,
+                                "width": 0.329167,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.292887,
+                                "y": 0.111940,
+                                "width": 0.350000,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.288703,
+                                "y": 0.111940,
+                                "width": 0.354167,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.276151,
+                                "y": 0.111940,
+                                "width": 0.366667,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.271967,
+                                "y": 0.111940,
+                                "width": 0.370833,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "start": 526000,
+            "duration": 2000
+        },
+        {
+            "start": 528000,
+            "duration": 49000,
+            "interval": 1000,
+            "events": [
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.263598,
+                                "y": 0.111940,
+                                "width": 0.379167,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.251046,
+                                "y": 0.111940,
+                                "width": 0.391667,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.238494,
+                                "y": 0.111940,
+                                "width": 0.408333,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.230126,
+                                "y": 0.111940,
+                                "width": 0.412500,
+                                "height": 0.585185
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.213389,
+                                "y": 0.111940,
+                                "width": 0.429167,
+                                "height": 0.585185
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.213389,
+                                "y": 0.111940,
+                                "width": 0.420833,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.205021,
+                                "y": 0.111940,
+                                "width": 0.433333,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.200837,
+                                "y": 0.111940,
+                                "width": 0.437500,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.200837,
+                                "y": 0.111940,
+                                "width": 0.445833,
+                                "height": 0.600000
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.200837,
+                                "y": 0.111940,
+                                "width": 0.454167,
+                                "height": 0.622222
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.200837,
+                                "y": 0.111940,
+                                "width": 0.466667,
+                                "height": 0.622222
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.205021,
+                                "y": 0.111940,
+                                "width": 0.475000,
+                                "height": 0.622222
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.205021,
+                                "y": 0.111940,
+                                "width": 0.487500,
+                                "height": 0.622222
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.205021,
+                                "y": 0.111940,
+                                "width": 0.495833,
+                                "height": 0.637037
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.213389,
+                                "y": 0.111940,
+                                "width": 0.495833,
+                                "height": 0.637037
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.213389,
+                                "y": 0.111940,
+                                "width": 0.504167,
+                                "height": 0.644444
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.221757,
+                                "y": 0.111940,
+                                "width": 0.504167,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "start": 577000,
+            "duration": 2000
+        },
+        {
+            "start": 579000,
+            "duration": 49000,
+            "interval": 1000,
+            "events": [
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.230126,
+                                "y": 0.111940,
+                                "width": 0.504167,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.230126,
+                                "y": 0.111940,
+                                "width": 0.512500,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.238494,
+                                "y": 0.111940,
+                                "width": 0.504167,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.238494,
+                                "y": 0.111940,
+                                "width": 0.504167,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.238494,
+                                "y": 0.111940,
+                                "width": 0.504167,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.255230,
+                                "y": 0.111940,
+                                "width": 0.479167,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.259414,
+                                "y": 0.111940,
+                                "width": 0.470833,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.255230,
+                                "y": 0.111940,
+                                "width": 0.487500,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.263598,
+                                "y": 0.111940,
+                                "width": 0.479167,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.263598,
+                                "y": 0.111940,
+                                "width": 0.479167,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.263598,
+                                "y": 0.111940,
+                                "width": 0.479167,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.271967,
+                                "y": 0.111940,
+                                "width": 0.470833,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.271967,
+                                "y": 0.111940,
+                                "width": 0.470833,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.271967,
+                                "y": 0.111940,
+                                "width": 0.441667,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.271967,
+                                "y": 0.111940,
+                                "width": 0.383333,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.276151,
+                                "y": 0.111940,
+                                "width": 0.383333,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.276151,
+                                "y": 0.111940,
+                                "width": 0.362500,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "start": 628000,
+            "duration": 2000
+        },
+        {
+            "start": 630000,
+            "duration": 34000,
+            "interval": 1000,
+            "events": [
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.280335,
+                                "y": 0.111940,
+                                "width": 0.358333,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.276151,
+                                "y": 0.111940,
+                                "width": 0.362500,
+                                "height": 0.651852
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.271967,
+                                "y": 0.111940,
+                                "width": 0.366667,
+                                "height": 0.644444
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.271967,
+                                "y": 0.111940,
+                                "width": 0.366667,
+                                "height": 0.644444
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.271967,
+                                "y": 0.111940,
+                                "width": 0.358333,
+                                "height": 0.644444
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.271967,
+                                "y": 0.111940,
+                                "width": 0.366667,
+                                "height": 0.644444
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.255230,
+                                "y": 0.111940,
+                                "width": 0.391667,
+                                "height": 0.644444
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.251046,
+                                "y": 0.111940,
+                                "width": 0.400000,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.292887,
+                                "y": 0.111940,
+                                "width": 0.333333,
+                                "height": 0.592593
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.288703,
+                                "y": 0.111940,
+                                "width": 0.337500,
+                                "height": 0.585185
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.205021,
+                                "y": 0.111940,
+                                "width": 0.420833,
+                                "height": 0.644444
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ],
+                [],
+                [],
+                [
+                    {
+                        "type": 2,
+                        "typeName": "motion",
+                        "locations": [
+                            {
+                                "x": 0.188285,
+                                "y": 0.104478,
+                                "width": 0.633333,
+                                "height": 0.666667
+                            }
+                        ],
+                        "regionId": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "start": 664000,
+            "duration": 260000
+        }
+    ]
+}
