@@ -12,7 +12,7 @@ namespace FlightInfo.Bot.Services
 {
     public static class FlightAwareClient
     {
-        public static async Task<FlightInfo> GetFlightData(string userName, string apiKey, string tailNumber)
+        public static async Task<FlightInformation> GetFlightData(string userName, string apiKey, string tailNumber)
         {
             // Documentation: http://flightxml.flightaware.com/soap/FlightXML2/doc#op_FlightInfo
             // Sample URL: http://flightxml.flightaware.com/json/FlightXML2/FlightInfo?ident=BA49&howMany=1
@@ -23,11 +23,39 @@ namespace FlightInfo.Bot.Services
             client.DefaultRequestHeaders.Authorization = authorization;
             var result = await client.GetStringAsync(uri);
             client.Dispose();
-            return JsonConvert.DeserializeObject<FlightInfo>(result);
+            return JsonConvert.DeserializeObject<FlightInformation>(result);
+        }
+
+        public static string GetFlightStatus(FlightInformation flightInfo)
+        {
+            string flightStatus = String.Empty;
+            if(
+                flightInfo.FlightInfoResult.flights[0].actualdeparturetime == 0)
+            {
+                flightStatus = "Waiting for departure";
+            }
+            else if(
+                flightInfo.FlightInfoResult.flights[0].actualdeparturetime != 0 &&
+                flightInfo.FlightInfoResult.flights[0].actualarrivaltime == 0)
+            {
+                flightStatus = "En route";
+            }
+            else if(
+                flightInfo.FlightInfoResult.flights[0].actualdeparturetime != 0 &&
+                flightInfo.FlightInfoResult.flights[0].actualarrivaltime != 0 && 
+                flightInfo.FlightInfoResult.flights[0].actualdeparturetime != flightInfo.FlightInfoResult.flights[0].actualarrivaltime)
+            {
+                flightStatus = "Landed";
+            }
+            else
+            {
+                flightStatus = "Unknown";
+            }
+            return flightStatus;
         }
     }
 
-    public class FlightInfo
+    public class FlightInformation
     {
         public Flightinforesult FlightInfoResult { get; set; }
     }

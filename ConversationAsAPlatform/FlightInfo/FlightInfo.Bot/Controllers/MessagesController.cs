@@ -8,6 +8,7 @@ using System.Web.Http.Description;
 using Microsoft.Bot.Connector;
 using Newtonsoft.Json;
 using FlightInfo.Bot.Services;
+using System.Configuration;
 
 namespace FlightInfo.Bot
 {
@@ -32,7 +33,12 @@ namespace FlightInfo.Bot
                     switch(luisMessage.intents[0].intent)
                     {
                         case "GetFlightInfo":
-                            replyMessage = luisMessage.intents[0].intent;
+                            FlightInformation flightInfo = 
+                                await FlightAwareClient.GetFlightData(
+                                    ConfigurationManager.AppSettings["FlightAwareUserName"], 
+                                    ConfigurationManager.AppSettings["FlightAwareApiKey"], 
+                                    luisMessage.entities[0].entity);
+                            replyMessage = FlightAwareClient.GetFlightStatus(flightInfo);
                             break;
 
                         case "GetDepartureStatus":
