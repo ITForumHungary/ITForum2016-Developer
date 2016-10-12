@@ -25,11 +25,11 @@ namespace Ticker.Bot.Services
                 string url = $"http://finance.yahoo.com/d/quotes.csv?s={symbol}&f=sl1";
                 string csv = await client.DownloadStringTaskAsync(url).ConfigureAwait(false);
 
-                // A kapott sor feldolgozása
+                // Process the CSV result
                 string line = csv.Split('\n')[0];
                 string priceAsText = line.Split(',')[1];
 
-                // A szöveges formátumú árfolyam számmá alakítása
+                // Format the last sale as number
                 NumberStyles style = NumberStyles.Any;
                 CultureInfo culture = CultureInfo.CreateSpecificCulture("en-US");
                 double price;
