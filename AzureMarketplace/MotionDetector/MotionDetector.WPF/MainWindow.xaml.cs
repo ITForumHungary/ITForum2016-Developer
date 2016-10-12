@@ -13,6 +13,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading;
 using Windows.Foundation;
+using System.Windows.Controls;
 
 namespace MotionDetector.WPF
 {
@@ -83,7 +84,7 @@ namespace MotionDetector.WPF
             }";
 
             StreamReader jsonReader = new StreamReader("Resources/MI_motiondetection.json");
-            String jsonData = jsonReader.ReadToEnd(); 
+            String jsonData = jsonReader.ReadToEnd();
 
             //Parse the fragments
             data = JsonConvert.DeserializeObject<MotionData>(jsonData);
@@ -133,10 +134,13 @@ namespace MotionDetector.WPF
             }
         }
 
-        private void MotionEventList_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void PlayFragmentButton_Click(object sender, RoutedEventArgs e)
         {
-            
-            SecurityVideo.Pause();
+            var clickedFragment = ((e.Source as Button)?.DataContext as Fragment);
+            if (clickedFragment != null)
+            {
+                SecurityVideo.Position = TimeSpan.FromSeconds(clickedFragment.start/data.timescale);
+            }
         }
     }
 }
