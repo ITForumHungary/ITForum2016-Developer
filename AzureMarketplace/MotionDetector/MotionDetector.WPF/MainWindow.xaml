@@ -4,8 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MotionDetector.WPF"
+        xmlns:converters="clr-namespace:MotionDetector.WPF"
         mc:Ignorable="d"
         Title="Motion Detector" Width="960" Height="600">
+    <Window.Resources>
+        <converters:TicToTimeConverter x:Key="TicToTimeConverter" />
+    </Window.Resources>
     <Grid>
         <StackPanel Orientation="Horizontal">
             <StackPanel>
@@ -14,14 +18,14 @@
             </StackPanel>
             <StackPanel>
                 <MediaElement x:Name="SecurityVideo" Width="640" Height="360" VerticalAlignment="Top" Margin="10" Source="Resources/MI.mp4" MediaOpened="media_MediaOpened" />
-                <TextBlock x:Name="MotionStatus" Width="640" TextAlignment="Center" Margin="10">n/a</TextBlock>
+                <TextBlock x:Name="MotionStatus" Width="640" FontSize="40" TextAlignment="Center" Margin="10">n/a</TextBlock>
             </StackPanel>
             <ListBox x:Name="MotionEventList" Width="120" Height="auto" VerticalAlignment="Top" Margin="10" >
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
                             <Button Content="Play"  x:Name="PlayFragmentButton" Click="PlayFragmentButton_Click"></Button>
-                            <TextBlock Text="{Binding start}"></TextBlock>
+                            <TextBlock Text="{Binding start, Converter={StaticResource TicToTimeConverter}, Mode=OneWay}"></TextBlock>
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
