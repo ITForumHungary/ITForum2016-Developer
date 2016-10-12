@@ -7,6 +7,7 @@ using System.Web.Http;
 using System.Web.Http.Description;
 using Microsoft.Bot.Connector;
 using Newtonsoft.Json;
+using FlightInfo.Bot.Services;
 
 namespace FlightInfo.Bot
 {
@@ -22,11 +23,42 @@ namespace FlightInfo.Bot
             if (activity.Type == ActivityTypes.Message)
             {
                 ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
-                // calculate something for us to return
-                int length = (activity.Text ?? string.Empty).Length;
 
+                LuisMessage luisMessage = await LuisClient.ParseMessage(activity.Text);
+                string replyMessage = string.Empty;
+
+                if(luisMessage.intents.Count() > 0)
+                {
+                    switch(luisMessage.intents[0].intent)
+                    {
+                        case "GetFlightInfo":
+                            replyMessage = luisMessage.intents[0].intent;
+                            break;
+
+                        case "GetDepartureStatus":
+                            replyMessage = luisMessage.intents[0].intent;
+                            break;
+
+                        case "GetArrivalStatus":
+                            replyMessage = luisMessage.intents[0].intent;
+                            break;
+
+                        case "RepeatPrevious":
+                            replyMessage = luisMessage.intents[0].intent;
+                            break;
+
+                        default:
+                            replyMessage = "I didn't catch that.";
+                            break;
+                    }
+                }
+
+                else
+                {
+                    replyMessage = "I didn't catch that.";
+                }
                 // return our reply to the user
-                Activity reply = activity.CreateReply($"You sent {activity.Text} which was {length} characters");
+                Activity reply = activity.CreateReply(replyMessage);
                 await connector.Conversations.ReplyToActivityAsync(reply);
             }
             else
