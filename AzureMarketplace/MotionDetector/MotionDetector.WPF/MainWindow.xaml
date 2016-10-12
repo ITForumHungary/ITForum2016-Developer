@@ -24,8 +24,7 @@
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
-                            <Button Content="Play"  x:Name="PlayFragmentButton" Click="PlayFragmentButton_Click"></Button>
-                            <TextBlock Text="{Binding start, Converter={StaticResource TicToTimeConverter}, Mode=OneWay}"></TextBlock>
+                            <Button Width="106" Content="{Binding start, Converter={StaticResource TicToTimeConverter}, Mode=OneWay}"  x:Name="PlayFragmentButton" Click="PlayFragmentButton_Click"></Button>
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
