@@ -125,6 +125,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\FlightAwareClient.cs" />
+    <Compile Include="Services\LuisClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
